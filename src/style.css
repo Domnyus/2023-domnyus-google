@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom_button
+{
+    @apply bg-none border-b-2 border-transparent hover:border-white hover:rounded-md transition ease-in duration-150 px-3 py-2 hover:bg-red-400 cursor-pointer my-1
+}
+
+.custom_active
+{
+    @apply bg-red-400 font-semibold rounded-md
+}
